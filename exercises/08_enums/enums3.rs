@@ -51,8 +51,6 @@ impl State {
             Message::ChangeColor(r, g, b) => self.change_color(r, g, b),
             Message::Quit => self.quit(),
         }
-        // TODO: Create a match expression to process the different message
-        // variants using the methods defined above.
     }
 }
 
