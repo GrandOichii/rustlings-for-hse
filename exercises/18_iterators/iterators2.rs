@@ -29,7 +29,7 @@ mod tests {
     fn test_success() {
         assert_eq!(capitalize_first("hello"), "Hello");
     }
-
+ 
     #[test]
     fn test_empty() {
         assert_eq!(capitalize_first(""), "");
