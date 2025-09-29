@@ -27,7 +27,6 @@ fn main() {
     let mut join_handles = Vec::new();
 
     for offset in 0..8 {
-        // TODO: Define `child_numbers` using `shared_numbers`.
         let child_numbers = Arc::clone(&shared_numbers);
 
         let handle = thread::spawn(move || {
